@@ -1,0 +1,102 @@
+Package: batctl-default
+Version: 2021.1-1
+Depends: libc, libnl-tiny1, librt
+Provides: batctl
+Alternatives: 200:/usr/sbin/batctl:/usr/libexec/batctl-default
+License: GPL-2.0-only ISC MIT
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 41418
+Filename: batctl-default_2021.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 42532
+SHA256sum: 61f39930af1dcac1daa69348ae3355e0c97f86e0e725cb8cdf931162f839ca66
+Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
+ It is an easier method for configuring batman-adv and provides some
+ additional tools for debugging as well. This package builds
+ version 2021.1 of the user space utility.
+ Standard subcommands for configuration and online debugging are enabled.
+
+Package: luci-lib-dracula
+Version: 6
+Depends: libc
+License: GPL-2.0+
+Section: luci
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 23292
+Filename: luci-lib-dracula_6_arm_cortex-a9_vfpv3-d16.ipk
+Size: 24029
+SHA256sum: 824603a20c65332fdbabb0739ce3349cb71faa4c71202d13f89519a30aa13516
+Description:  dracula graph javascript library
+
+Package: olsrd-mod-dyn-gw-plain
+Version: 2021-06-08-a42c2df1-1
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2179
+Filename: olsrd-mod-dyn-gw-plain_2021-06-08-a42c2df1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2980
+SHA256sum: 6a21e0ebebe1c84b2044e6afc4acc2e33cf6d2cc6ea70260c7c33481945d4cd8
+Description:  Dynamic internet gateway plain plugin
+
+Package: olsrd-mod-filtergw
+Version: 2021-06-08-a42c2df1-1
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2444
+Filename: olsrd-mod-filtergw_2021-06-08-a42c2df1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3199
+SHA256sum: 3ceb2ae6080515097b7d4d9f87cb7d79d3bd3ad1fe84e06f52b069498e519d45
+Description:  Filter Gateway plugin
+
+Package: olsrd-mod-jsoninfo
+Version: 2021-06-08-a42c2df1-1
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 24040
+Filename: olsrd-mod-jsoninfo_2021-06-08-a42c2df1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 24811
+SHA256sum: fd26f80fd02124bebe81008b2f11f274bfa8047dce4deae462ae31af04ccded0
+Description:  Small informative plugin with JSON output
+
+Package: olsrd-mod-nameservice
+Version: 2021-06-08-a42c2df1-1
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 10553
+Filename: olsrd-mod-nameservice_2021-06-08-a42c2df1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 11292
+SHA256sum: 3c2aa5ca7a4e0b19874a27f5caf28540e47e65c3d4c39a2c646355e745dd99a6
+Description:  Lightweight hostname resolver plugin
+
+Package: olsrd-mod-watchdog
+Version: 2021-06-08-a42c2df1-1
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1508
+Filename: olsrd-mod-watchdog_2021-06-08-a42c2df1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2297
+SHA256sum: 73084a146fa3cab8b56b8af0cd36ec0e3d188127517be24da3457eb2c39dc04b
+Description:  Watchdog plugin
+
+Package: olsrd
+Version: 2021-06-08-a42c2df1-1
+Depends: libc, libpthread
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 137550
+Filename: olsrd_2021-06-08-a42c2df1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 138352
+SHA256sum: 742b35d4c70c1d33e8066c63353f7739317d9ad97a41ef2e922c5312319150cd
+Description:  OLSR (Optimized Link State Routing) daemon
+

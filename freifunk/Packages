@@ -1,0 +1,55 @@
+Package: luci-app-owm-ant
+Version: 0.5.1
+Depends: libc, luci-app-owm, luci-base
+Section: luci
+Architecture: all
+Installed-Size: 1358
+Filename: luci-app-owm-ant_0.5.1_all.ipk
+Size: 2099
+SHA256sum: 370313cda790190a20fe3c818f4ce040ffc43fabe44be031a25164b7619ae1f1
+Description:  luci-app-owm-ant - GUI Antenna settings
+
+Package: luci-app-owm-cmd
+Version: 0.5.1
+Depends: libc, luci-app-owm, luci-lib-httpclient, libuci-lua
+Section: luci
+Architecture: all
+Installed-Size: 1650
+Filename: luci-app-owm-cmd_0.5.1_all.ipk
+Size: 2488
+SHA256sum: 031b7ba89e1c182fc8ad196e81a53144a606d5e186c2ab8f55386ee47e4cb6bb
+Description:  luci-app-owm-cmd - Commandline update tool
+
+Package: luci-app-owm-gui
+Version: 0.5.1
+Depends: libc, luci-app-owm, luci-base
+Section: luci
+Architecture: all
+Installed-Size: 1270
+Filename: luci-app-owm-gui_0.5.1_all.ipk
+Size: 2007
+SHA256sum: c68d09573b3f75083644b54227e658ea9b9522f9b07894f691c753e1d47514b7
+Description:  luci-app-owm-gui - GUI Open Wireless Map
+
+Package: luci-app-owm
+Version: 0.5.1
+Depends: libc, luci-lib-json, olsrd-mod-jsoninfo, luci-lib-ip, libuci-lua
+Section: luci
+Architecture: all
+Installed-Size: 4897
+Filename: luci-app-owm_0.5.1_all.ipk
+Size: 5630
+SHA256sum: 0284c358720e1dc6344d50a62e6281885f966ec3fbbe45b07ba2b2ac7a1367b0
+Description:  Luci JSON Export for Open Wireless Map
+
+Package: luci-theme-freifunk-generic
+Version: git-21.158.80149-4be60d2
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 42325
+Filename: luci-theme-freifunk-generic_git-21.158.80149-4be60d2_all.ipk
+Size: 43215
+SHA256sum: ca3fa41d37ae3f83a12652848b95f1fe4473da5bbc1cb59affa3c7845c55dbad
+Description:  Freifunk Generic Theme
+

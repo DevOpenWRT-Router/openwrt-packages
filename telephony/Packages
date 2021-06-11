@@ -1,0 +1,89 @@
+Package: dahdi-cfg
+Version: 3.1.0-2
+Depends: libc, kmod-dahdi, libpthread, dahdi-tools-libtonezone
+License: GPL-2.0
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 25567
+Filename: dahdi-cfg_3.1.0-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 26332
+SHA256sum: aa5ca0894fc7b97ae7046cfeccefe3bc1fa32f51c84bfa5db29e9c130a12e10d
+Description:  DAHDI tools dahdi_cfg, dahdi_scan and fxotune
+
+Package: dahdi-monitor
+Version: 3.1.0-2
+Depends: libc, kmod-dahdi
+License: GPL-2.0
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9441
+Filename: dahdi-monitor_3.1.0-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10246
+SHA256sum: e216e1c73f8aa5b79c681d237a1345226d2916e7e1be2b65c3f01dc07b74d5d3
+Description:  DAHDI tools dahdi_monitor, dahdi_speed and dahdi_test
+
+Package: dahdi-tools-libtonezone
+Version: 3.1.0-2
+Depends: libc, kmod-dahdi
+License: GPL-2.0
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9369
+Filename: dahdi-tools-libtonezone_3.1.0-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10061
+SHA256sum: 890bd612f95bc46edd25f43623dad1acef6765188134d04a4c88b0a418080b2a
+Description:  DAHDI tonezone library
+
+Package: gsm-utils
+Version: 1.10-20140304-3
+Depends: libc, gsmlib
+License: LGPL-2.1+
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 43278
+Filename: gsm-utils_1.10-20140304-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 44136
+SHA256sum: 706fb7fddf6d89241a6af2c215f5dcce4f04fbf6d4a5b6d81eb21106c1ff5192
+Description:  Some simple command line programs to access GSM mobile phones via GSM modems.
+
+Package: gsmlib
+Version: 1.10-20140304-3
+Depends: libc, libstdcpp6
+License: LGPL-2.1+
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 110549
+Filename: gsmlib_1.10-20140304-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 110963
+SHA256sum: 79d3c0c7adce21f689b0ad8f187d164025b086e32070199733a687142161b8eb
+Description:  A library to access GSM mobile phones via GSM modems.
+
+Package: sipgrep
+Version: 2019-06-27-1cc00079-2
+Depends: libc, libpcap1, libpcre
+License: GPL-3.0
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 22505
+Filename: sipgrep_2019-06-27-1cc00079-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 23424
+SHA256sum: 6bf943acc16ea15850ae090569c0876d0ff33c6b8001af3a46c7346c56c0d13f
+Description:  Powerful pcap-aware command line tool to sniff, capture, display and
+ troubleshoot SIP signaling over IP networks, allowing the user to
+ specify extended regular expressions matching against SIP headers.
+
+Package: sngrep
+Version: 1.4.8-1
+Depends: libc, libncursesw6, libopenssl1.1, libpcap1, libpcre
+License: GPL-3.0+
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 65348
+Filename: sngrep_1.4.8-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 65775
+SHA256sum: 24bb3d37fd99fd0d7a5297e5438ccd6c8d2030e2aeeb1a6e128b1cb8c3143bc0
+Description:  sngrep is a tool for displaying SIP calls message flows from terminal.
+ 
+ It supports live capture to display realtime SIP packets and can also be
+ used as PCAP viewer.
+
